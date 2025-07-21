@@ -30,7 +30,7 @@ def postprocess(response):
 
 def chatbot_reply(message):
     try:
-        model_api_url = "192.168.1.29:8000"
+        model_api_url = "https://foodchow-messenger-bot.onrender.com"
         payload = {
             "message": message,
             "language": "en"
